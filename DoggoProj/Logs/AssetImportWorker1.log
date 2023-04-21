@@ -1,10 +1,10 @@
 Using pre-set license
-Built from '2021.3/staging' branch; Version is '2021.3.22f1 (b6c551784ba3) revision 11978065'; Using compiler version '192829333'; Build Type 'Release'
+Built from '2021.3/staging' branch; Version is '2021.3.0f1 (6eacc8284459) revision 7253192'; Using compiler version '192829333'; Build Type 'Release'
 OS: 'Windows 11  (10.0.22621) 64bit CoreSingleLanguage' Language: 'en' Physical Memory: 16221 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
-D:\unity\editor\2021.3.22f1\Editor\Unity.exe
+D:\unity\editor\2021.3.0f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
@@ -15,7 +15,7 @@ D:/DoggoRacing/DoggoProj
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-62058
+49234
 Successfully changed project path to: D:/DoggoRacing/DoggoProj
 D:/DoggoRacing/DoggoProj
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,14 +47,10 @@ D:/DoggoRacing/DoggoProj
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [9724] Host "[IP] 192.168.29.93 [Port] 0 [Flags] 2 [Guid] 2695685417 [EditorId] 2695685417 [Version] 1048832 [Id] WindowsEditor(7,Umesh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
-
-Player connection [9724] Host "[IP] 192.168.29.93 [Port] 0 [Flags] 2 [Guid] 2695685417 [EditorId] 2695685417 [Version] 1048832 [Id] WindowsEditor(7,Umesh) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
-
-Refreshing native plugins compatible for Editor in 143.01 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 100.27 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Initialize engine version: 2021.3.22f1 (b6c551784ba3)
-[Subsystems] Discovering subsystems at path D:/unity/editor/2021.3.22f1/Editor/Data/Resources/UnitySubsystems
+Initialize engine version: 2021.3.0f1 (6eacc8284459)
+[Subsystems] Discovering subsystems at path D:/unity/editor/2021.3.0f1/Editor/Data/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path D:/DoggoRacing/DoggoProj/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
@@ -64,107 +60,103 @@ Direct3D:
     VRAM:     3962 MB
     Driver:   31.0.15.1691
 Initialize mono
-Mono path[0] = 'D:/unity/editor/2021.3.22f1/Editor/Data/Managed'
-Mono path[1] = 'D:/unity/editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
-Mono config path = 'D:/unity/editor/2021.3.22f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56644
+Mono path[0] = 'D:/unity/editor/2021.3.0f1/Editor/Data/Managed'
+Mono path[1] = 'D:/unity/editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/unity/editor/2021.3.0f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56376
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: D:/unity/editor/2021.3.22f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
-Register platform support module: D:/unity/editor/2021.3.22f1/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
-Register platform support module: D:/unity/editor/2021.3.22f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
-Register platform support module: D:/unity/editor/2021.3.22f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
-Register platform support module: D:/unity/editor/2021.3.22f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.004317 seconds.
+Register platform support module: D:/unity/editor/2021.3.0f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: D:/unity/editor/2021.3.0f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/unity/editor/2021.3.0f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: D:/unity/editor/2021.3.0f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002739 seconds.
 Native extension for WindowsStandalone target not found
 [usbmuxd] Start listen thread
 [usbmuxd] Listen thread started
 Native extension for iOS target not found
 Native extension for Android target not found
-Android Extension - Scanning For ADB Devices 326 ms
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 156.97 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.20 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.287 seconds
+- Completed reload, in  0.598 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1287ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (598ms)
+		BeginReloadAssembly (64ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (1049ms)
-			LoadAssemblies (113ms)
+		EndReloadAssembly (443ms)
+			LoadAssemblies (64ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (153ms)
+			SetupTypeCache (98ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (787ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (277ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (436ms)
+				InitializePlatformSupportModulesInManaged (56ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (157ms)
-				BeforeProcessingInitializeOnLoad (2ms)
-				ProcessInitializeOnLoadAttributes (128ms)
-				ProcessInitializeOnLoadMethodAttributes (64ms)
+				RefreshPlugins (88ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (92ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.007914 seconds.
+Registered in 0.004020 seconds.
 Begin MonoManager ReloadAssembly
 Symbol file LoadedFromMemory doesn't match image D:\DoggoRacing\DoggoProj\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
 Symbol file LoadedFromMemory doesn't match image D:\DoggoRacing\DoggoProj\Library\PackageCache\com.unity.visualscripting@1.8.0\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
 Native extension for iOS target not found
 Native extension for Android target not found
-Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.96 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.631 seconds
+- Completed reload, in  1.127 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1632ms)
-		BeginReloadAssembly (169ms)
+	ReloadAssembly (1127ms)
+		BeginReloadAssembly (207ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (9ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1306ms)
-			LoadAssemblies (131ms)
+			CreateAndSetChildDomain (124ms)
+		EndReloadAssembly (822ms)
+			LoadAssemblies (80ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (439ms)
+			SetupTypeCache (262ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (100ms)
-			SetupLoadedEditorAssemblies (590ms)
+			RebuildScriptCaches (70ms)
+			SetupLoadedEditorAssemblies (382ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (42ms)
-				SetLoadedEditorAssemblies (1ms)
+				InitializePlatformSupportModulesInManaged (21ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (131ms)
-				ProcessInitializeOnLoadAttributes (388ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (265ms)
+				ProcessInitializeOnLoadMethodAttributes (19ms)
+				AfterProcessingInitializeOnLoad (2ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.81 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 4020 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 38 unused Assets / (189.8 KB). Loaded Objects now: 4491.
-Memory consumption went from 157.2 MB to 157.0 MB.
-Total: 4.631800 ms (FindLiveObjects: 0.412600 ms CreateObjectMapping: 0.406800 ms MarkObjects: 3.635400 ms  DeleteObjects: 0.175500 ms)
+Unloading 4010 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (163.3 KB). Loaded Objects now: 4484.
+Memory consumption went from 156.8 MB to 156.7 MB.
+Total: 3.263900 ms (FindLiveObjects: 0.336200 ms CreateObjectMapping: 0.277800 ms MarkObjects: 2.548000 ms  DeleteObjects: 0.101100 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -177,681 +169,3 @@ AssetImportParameters requested are different than current active one (requested
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
   custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 88801.165485 seconds.
-  path: Assets/Malbers Animations/_Upgrading_.asset
-  artifactKey: Guid(5a449182fa6393743afadb549de6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/_Upgrading_.asset using Guid(5a449182fa6393743afadb549de6b598) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26b07ff37aa600daf7ff88e682c19cc5') in 0.047394 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Malbers Animations/ChangeLog.asset
-  artifactKey: Guid(4334b4f5c2fea58458f3dd4064477319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/ChangeLog.asset using Guid(4334b4f5c2fea58458f3dd4064477319) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cdada3234780e68269b07184c8525ec') in 0.003750 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Malbers Animations/README!.asset
-  artifactKey: Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/README!.asset using Guid(8357ab50d0248b347a61fe6d6b730ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '047d81eb80ce7ecbb4f3ccc7ea4994dc') in 0.005166 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.123788 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_banner_finish_free_obs.prefab
-  artifactKey: Guid(c7bebf8ce7ad3264abbb7ed6a6953153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_banner_finish_free_obs.prefab using Guid(c7bebf8ce7ad3264abbb7ed6a6953153) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd86af1b73b8a998394f97cdc3a562489') in 0.122477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Fence_concrete_free_obs.prefab
-  artifactKey: Guid(7f98c8176bfca7347b11006aac2c90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Fence_concrete_free_obs.prefab using Guid(7f98c8176bfca7347b11006aac2c90ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e237524e1f85051ee70b97da5d9981b1') in 0.015191 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_for_banner_free_obs.prefab
-  artifactKey: Guid(27f69fe37e0c8c44f97be1aba8f406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Arch_for_banner_free_obs.prefab using Guid(27f69fe37e0c8c44f97be1aba8f406cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '46d1e76c786bfcf2260e50486bc8a709') in 0.019600 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Barrier_free_obs.prefab
-  artifactKey: Guid(f26c4802677a5194091851e89ded1f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Barrier_free_obs.prefab using Guid(f26c4802677a5194091851e89ded1f3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3026162da379382be345f10fec0acc01') in 0.020345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Cone_free_obs.prefab
-  artifactKey: Guid(b6e6982b772a1bc46b88d93db630bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Cone_free_obs.prefab using Guid(b6e6982b772a1bc46b88d93db630bee4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a03c5fa6a6f470c7cb5d2718191f9a4') in 0.015197 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.344951 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Sign_free_obs.prefab
-  artifactKey: Guid(fca05fc86b15f0d4da25ed7793db4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Sign_free_obs.prefab using Guid(fca05fc86b15f0d4da25ed7793db4384) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f11bafddb41f639ae56443b778b603f') in 0.013056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 417.441488 seconds.
-  path: Assets/BEDRILL/Track_Environment_Free/Prefabs/Traffic_light_free_obs.prefab
-  artifactKey: Guid(99c5fe0ab7d0f8045a119a49343475d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BEDRILL/Track_Environment_Free/Prefabs/Traffic_light_free_obs.prefab using Guid(99c5fe0ab7d0f8045a119a49343475d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb7f2fe60d08d80d90703108661b8e73') in 0.026921 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 885.818922 seconds.
-  path: Assets/RTG 1.3/Big Screen/FBX/Materials/ScreenTexture.mat
-  artifactKey: Guid(8bcf6749f22db4c47a8006b071bb9461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Big Screen/FBX/Materials/ScreenTexture.mat using Guid(8bcf6749f22db4c47a8006b071bb9461) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ba3982339d72c1aef4106a5f91e0471') in 0.042763 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.548839 seconds.
-  path: Assets/RTG 1.3/Big Screen/Source/ScreenRender.renderTexture
-  artifactKey: Guid(0c5e7c9efb21ec54d84c2a050e4a25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Big Screen/Source/ScreenRender.renderTexture using Guid(0c5e7c9efb21ec54d84c2a050e4a25b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56242717d7406b87b9e8ffe9fc04f73a') in 0.025466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.852123 seconds.
-  path: Assets/RTG 1.3/Big Screen/Screen-02.prefab
-  artifactKey: Guid(9817f5f4c1d41ab4e9631114c1634d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Big Screen/Screen-02.prefab using Guid(9817f5f4c1d41ab4e9631114c1634d0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eb9f2ee752013861c5bf1081ff94f5a1') in 0.040083 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RTG 1.3/Big Screen/Screen-03.prefab
-  artifactKey: Guid(cac1ca3bdc898654c8ec615ff9373854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Big Screen/Screen-03.prefab using Guid(cac1ca3bdc898654c8ec615ff9373854) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc9ac4c81b2ff7220363d93cc3b6681c') in 0.035003 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000089 seconds.
-  path: Assets/RTG 1.3/Big Screen/Screen-07.prefab
-  artifactKey: Guid(604b14abf535054489e95052436d3cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Big Screen/Screen-07.prefab using Guid(604b14abf535054489e95052436d3cbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1f84cb9b1100d3311d1d66d3a219356') in 0.021620 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RTG 1.3/Big Screen/Screen-04.prefab
-  artifactKey: Guid(d98d39d3e15803846abd872018d2b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Big Screen/Screen-04.prefab using Guid(d98d39d3e15803846abd872018d2b2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba7c7c17365540d346b9a7b660720061') in 0.022185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.437712 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings/Building-01.fbx
-  artifactKey: Guid(f2413721b75ab444396f4e0a3660ed38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings/Building-01.fbx using Guid(f2413721b75ab444396f4e0a3660ed38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c49e56ff487bd2e31ff03d2cd903bb1') in 0.041900 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings/Building-01b.fbx
-  artifactKey: Guid(ca28457ee2d1e5c499c70c85cb2b8396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings/Building-01b.fbx using Guid(ca28457ee2d1e5c499c70c85cb2b8396) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e80aaa9f2504aa8bd12677731a7bbe') in 0.024489 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings/Building-02b.fbx
-  artifactKey: Guid(d15713675e1bf9b4a87693e395b5d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings/Building-02b.fbx using Guid(d15713675e1bf9b4a87693e395b5d162) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85516ec36dca7ed57ca23354f53f7fba') in 0.025284 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings/Building-04.fbx
-  artifactKey: Guid(3540079d0ba3639479e06013dce661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings/Building-04.fbx using Guid(3540079d0ba3639479e06013dce661f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cac3ec3445d106a1ab7c1b1857170def') in 0.026635 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.663694 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings/Building-05.fbx
-  artifactKey: Guid(c05bf6e6221785b479f9dde91589a32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings/Building-05.fbx using Guid(c05bf6e6221785b479f9dde91589a32d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e05aa7b6c935f7d1f91a44044b084d4') in 0.018728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.309938 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-G-02.prefab
-  artifactKey: Guid(bce34288f0625e944bbfc12b5befe74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-G-02.prefab using Guid(bce34288f0625e944bbfc12b5befe74e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2de2b9ca4f878df16ee3fdc37ea3d21c') in 0.029062 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/building-G-05.prefab
-  artifactKey: Guid(21f6ef80058d559498dbec4210e2ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/building-G-05.prefab using Guid(21f6ef80058d559498dbec4210e2ad46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77fcedb6f5a4f52263ac0e13bcd544b9') in 0.031367 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-G-08.prefab
-  artifactKey: Guid(8706c1eaea6c4c54f8ad4c37f8a4faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-G-08.prefab using Guid(8706c1eaea6c4c54f8ad4c37f8a4faea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ddbea808b0a186888829a8f1cab733') in 0.027358 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/building-G-03.prefab
-  artifactKey: Guid(254a32d2b0f7b6e4da0eeb90121350cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/building-G-03.prefab using Guid(254a32d2b0f7b6e4da0eeb90121350cb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa83b6d2bb88d2ee08a535e3991b0499') in 0.033354 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.495576 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-01.prefab
-  artifactKey: Guid(4c919a04e74bbb14ab701693f4e571ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-01.prefab using Guid(4c919a04e74bbb14ab701693f4e571ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1742b3d85183148c94e355fd776f8d76') in 0.020021 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.042390 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-03.prefab
-  artifactKey: Guid(125f1e9903229bd47acdbaa7caf93711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-03.prefab using Guid(125f1e9903229bd47acdbaa7caf93711) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d2b9666ea8dc5610b4d2732b1bb2f6b') in 0.021781 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.133296 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-05.prefab
-  artifactKey: Guid(39566350bf29aa8479e8dd5dd95978b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-05.prefab using Guid(39566350bf29aa8479e8dd5dd95978b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f7802817e8c9192af6b2c82014e386') in 0.021902 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.110739 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-07.prefab
-  artifactKey: Guid(a65fdf4d0e1c841468e397b37d56b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-07.prefab using Guid(a65fdf4d0e1c841468e397b37d56b78e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '10326d316056c747fae8982c6b1ae405') in 0.022183 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.576849 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-09.prefab
-  artifactKey: Guid(982c30ee17dd9104884b486e748f0990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-09.prefab using Guid(982c30ee17dd9104884b486e748f0990) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16a0c4ed6d931622cad6c9e99245676b') in 0.020427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.266902 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-11.prefab
-  artifactKey: Guid(1b3509d5c810e6c468fe4bb8968c588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-11.prefab using Guid(1b3509d5c810e6c468fe4bb8968c588f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4decdf87d906b654d9cf4c8ceb98244c') in 0.020505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.024536 seconds.
-  path: Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-13.prefab
-  artifactKey: Guid(3e6095291ea9e714185c52bfbde50931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Buildings-Grid/Building-Grid-13.prefab using Guid(3e6095291ea9e714185c52bfbde50931) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fbbc794db7c2c656530cb62e9d2f73be') in 0.027835 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 10.491304 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-A-3.fbx
-  artifactKey: Guid(e56d8d0498d66c74681000f80b46bdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-A-3.fbx using Guid(e56d8d0498d66c74681000f80b46bdb1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e019eab3666d301b16e8579b82c8c8') in 0.028006 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-E-01.fbx
-  artifactKey: Guid(79f56366f4ae69147b384af2bb611312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-E-01.fbx using Guid(79f56366f4ae69147b384af2bb611312) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44e6b9999df6c3314e36b0244c33b9dc') in 0.038987 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-B-1.fbx
-  artifactKey: Guid(50d7cf73c3a00da49ac106cd788818b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-B-1.fbx using Guid(50d7cf73c3a00da49ac106cd788818b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '477bb4e031c844a3a108cd6e42c0cec3') in 0.032976 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-D.fbx
-  artifactKey: Guid(60943e31759c30c4096c015f6750ccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-D.fbx using Guid(60943e31759c30c4096c015f6750ccfa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb1e42779ef08c4bcca56ecb2ffc1e2') in 0.031506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-A-4.fbx
-  artifactKey: Guid(38270e14f42c4a342adb0fe157a84c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-A-4.fbx using Guid(38270e14f42c4a342adb0fe157a84c88) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1f319df9828368a1aa96a2eca61b64e') in 0.023599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.853435 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-A-1.fbx
-  artifactKey: Guid(31a36fc6e53c58b498e327ccda731480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-A-1.fbx using Guid(31a36fc6e53c58b498e327ccda731480) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06f96a07a63577a634955014b1344fa8') in 0.019988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.332843 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-F.fbx
-  artifactKey: Guid(8abbdcf2697150d49925d27e3540400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-F.fbx using Guid(8abbdcf2697150d49925d27e3540400d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fb47d04e6a12f32a90822fe5d9e27906') in 0.026680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.060022 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-G-1.fbx
-  artifactKey: Guid(6826b1170990f4c4b945a680fd2f6878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-G-1.fbx using Guid(6826b1170990f4c4b945a680fd2f6878) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25dc5b14f38b7f6352701d55e834cd48') in 0.026416 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.145027 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-H.fbx
-  artifactKey: Guid(eca6b1ac3955515408f30fae39e9bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-H.fbx using Guid(eca6b1ac3955515408f30fae39e9bae5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b739551af9831d6485eacccf3084a9') in 0.028371 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.512761 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-I.fbx
-  artifactKey: Guid(b982b80310d807544bcdbef45eba3b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-I.fbx using Guid(b982b80310d807544bcdbef45eba3b7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd157dfa7c80fb0c9ce7f6ce12de2d5') in 0.031915 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-J-1.fbx
-  artifactKey: Guid(8f61a8bfe431c784592acdc273764915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-J-1.fbx using Guid(8f61a8bfe431c784592acdc273764915) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb58c24d64a7e28145650ae796e6ac9c') in 0.032149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015915 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-J-4.fbx
-  artifactKey: Guid(2d68265cb35356b42a5295a3ae1c6d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-J-4.fbx using Guid(2d68265cb35356b42a5295a3ae1c6d57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c89228d538934d6a063e516c1564ad4') in 0.024542 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.604191 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-K-2.fbx
-  artifactKey: Guid(d62e1e52dff964b409651b532f11a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-K-2.fbx using Guid(d62e1e52dff964b409651b532f11a680) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdc8086bfc800005fc66a87a90bae1a5') in 0.020078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-K-4.fbx
-  artifactKey: Guid(1c13c6d2c221197459ddd44eb27fe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-K-4.fbx using Guid(1c13c6d2c221197459ddd44eb27fe504) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04ba2fe7ea45efb73fee739779e9b37e') in 0.023306 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023702 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-L-02.fbx
-  artifactKey: Guid(8206c6212865bcc4f8bcc82e40405e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-L-02.fbx using Guid(8206c6212865bcc4f8bcc82e40405e0f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b4e98ad8d7459549de6ef7ee4e92d5') in 0.025765 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/RTG 1.3/Contents/Cabins/Cabin-L-03.fbx
-  artifactKey: Guid(fa51791e42e98c144b6c8ede45bfb523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Cabins/Cabin-L-03.fbx using Guid(fa51791e42e98c144b6c8ede45bfb523) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ce8dd7efd0fc07d5e858af01fc8ee80') in 0.022793 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.773106 seconds.
-  path: Assets/RTG 1.3/Contents/Flags/Italy.prefab
-  artifactKey: Guid(4bf44b7acfd840a4a804c34113b776de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Flags/Italy.prefab using Guid(4bf44b7acfd840a4a804c34113b776de) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a337d59018b17b2022c1a8c56924ae') in 0.016481 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RTG 1.3/Contents/Flags/Japan.prefab
-  artifactKey: Guid(0f5e24f8230ea4b408bf95e54480602d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Flags/Japan.prefab using Guid(0f5e24f8230ea4b408bf95e54480602d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '321371a2e59fde091b9231aa7f718c0e') in 0.017845 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/RTG 1.3/Contents/Flags/Spain.prefab
-  artifactKey: Guid(8b1d1594da9d20543ac7c6c1a56e450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Flags/Spain.prefab using Guid(8b1d1594da9d20543ac7c6c1a56e450a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688b165ab80b20b78977715c7481998f') in 0.013628 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.908215 seconds.
-  path: Assets/RTG 1.3/Contents/FootBridge/Footbridge-C-01.prefab
-  artifactKey: Guid(3bfe5a68a7ab71045b394da5a5f295f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/FootBridge/Footbridge-C-01.prefab using Guid(3bfe5a68a7ab71045b394da5a5f295f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9eb91d6fa23f5fd64756bedd5674314d') in 0.017760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RTG 1.3/Contents/FootBridge/FootBridge-E-01.prefab
-  artifactKey: Guid(552b1e3239d4b984e875d781ccf8b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/FootBridge/FootBridge-E-01.prefab using Guid(552b1e3239d4b984e875d781ccf8b97a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ca4b86c2af8226c89805f1123973d11') in 0.025369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/RTG 1.3/Contents/FootBridge/FootBridge-E-02.prefab
-  artifactKey: Guid(0a2a929af71c4194ca92637a340b78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/FootBridge/FootBridge-E-02.prefab using Guid(0a2a929af71c4194ca92637a340b78f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed3b61b54d4b88cd73b5b3cd74b3e959') in 0.022926 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.362561 seconds.
-  path: Assets/RTG 1.3/Contents/FootBridge/FootBridge-B-01.prefab
-  artifactKey: Guid(1a70797f5c4b82845acd339d8cd3ca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/FootBridge/FootBridge-B-01.prefab using Guid(1a70797f5c4b82845acd339d8cd3ca21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f6141169277bd81d5da9421db7eb481') in 0.016528 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 20.550659 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/GrandStand-02.fbx
-  artifactKey: Guid(6cb7f626c2955c94c940979e33aae49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/GrandStand-02.fbx using Guid(6cb7f626c2955c94c940979e33aae49d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74de3df7c0e01dd6c81a1e1beb219764') in 0.069467 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/GrandStand-07.fbx
-  artifactKey: Guid(1328013ede62a854ba844d9f6229d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/GrandStand-07.fbx using Guid(1328013ede62a854ba844d9f6229d478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '036c85e3624c9d687e0fb4cfb3141546') in 0.087540 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/GrandStand-03.fbx
-  artifactKey: Guid(c8785ca9a5e42ff45bf924c932286246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/GrandStand-03.fbx using Guid(c8785ca9a5e42ff45bf924c932286246) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6950946616553239b968da4bd0824d20') in 0.059146 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000044 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/GrandStand-08.fbx
-  artifactKey: Guid(de71f2cff04cb7143a70ec99e40a02b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/GrandStand-08.fbx using Guid(de71f2cff04cb7143a70ec99e40a02b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eaa39903661323ef0c14218eebe6059e') in 0.053893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.582547 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/GrandStand-09.fbx
-  artifactKey: Guid(5cd105397faf36a4d8f166380e9a2a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/GrandStand-09.fbx using Guid(5cd105397faf36a4d8f166380e9a2a5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '515ae9a9924a62fd878eec47caca9c7e') in 0.051056 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.851635 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/GrandStand-11.fbx
-  artifactKey: Guid(ef084bf4a7e98024d84b7f700d2eef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/GrandStand-11.fbx using Guid(ef084bf4a7e98024d84b7f700d2eef2b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9722155b37f86bb913671ea7be851797') in 0.059402 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.227264 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/Stand-02.fbx
-  artifactKey: Guid(e87c6986c9318f646a1886a7f785654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/Stand-02.fbx using Guid(e87c6986c9318f646a1886a7f785654c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fa347ae9b6b24b766423af5c5a761c1') in 0.046104 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.530845 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/Stand-04.fbx
-  artifactKey: Guid(aa7406f9a7bc34b4fb77e225a4878dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/Stand-04.fbx using Guid(aa7406f9a7bc34b4fb77e225a4878dba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40b77da6f52b899a485a16c3b7c7e4e0') in 0.047589 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.288326 seconds.
-  path: Assets/RTG 1.3/Contents/GrandStands/Stand-06.fbx
-  artifactKey: Guid(5303d77c4eacf904d85db4821afaaffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/GrandStands/Stand-06.fbx using Guid(5303d77c4eacf904d85db4821afaaffd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45251fb801fc286d2e2c7af77d5a1c89') in 0.039477 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.643154 seconds.
-  path: Assets/RTG 1.3/Contents/Lights/Light-02.fbx
-  artifactKey: Guid(eef4739fffcfc8b499093b18d3223713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Lights/Light-02.fbx using Guid(eef4739fffcfc8b499093b18d3223713) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa8ee69798e4c1487fe60d597392b93') in 0.018804 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/RTG 1.3/Contents/Lights/Light-04.fbx
-  artifactKey: Guid(ea58ec9375fc79b41b42109f1ee7e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Lights/Light-04.fbx using Guid(ea58ec9375fc79b41b42109f1ee7e835) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4236c0374d694325364336d2661890c1') in 0.024587 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000065 seconds.
-  path: Assets/RTG 1.3/Contents/Lights/Light-03.fbx
-  artifactKey: Guid(cc28a9fdc84ece74e8e11ebb10db28f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Lights/Light-03.fbx using Guid(cc28a9fdc84ece74e8e11ebb10db28f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67a27507eec3e6a58910e3de33240437') in 0.023655 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.432820 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Barrier-Blue-five.fbx
-  artifactKey: Guid(4006d80cf408d7f46afd0038b29263e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Barrier-Blue-five.fbx using Guid(4006d80cf408d7f46afd0038b29263e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aa67fa643b9c845871d954e7d23aea76') in 0.022055 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Camera.fbx
-  artifactKey: Guid(a559439e492032348a8716752581f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Camera.fbx using Guid(a559439e492032348a8716752581f21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fe70b8da675094718c9436a652c5cc9') in 0.033105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Container.fbx
-  artifactKey: Guid(fbc9591fa1e8b2a4e86f2dd5ad6d581a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Container.fbx using Guid(fbc9591fa1e8b2a4e86f2dd5ad6d581a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5bf66e73a6392ea15230d1eedb40054') in 0.030949 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Barrier-Blue.fbx
-  artifactKey: Guid(de8f8c1dd32fb9f4d9af56278775048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Barrier-Blue.fbx using Guid(de8f8c1dd32fb9f4d9af56278775048a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e514000ab4f8952209d2493418a2d02b') in 0.036833 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Barrier-Red-five.fbx
-  artifactKey: Guid(a4127b548e6f20e479662ef44e2cf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Barrier-Red-five.fbx using Guid(a4127b548e6f20e479662ef44e2cf2a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50c518b727307596b57f71ae40430900') in 0.027383 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.584628 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Detail-01.fbx
-  artifactKey: Guid(0dc8cab59479a8e42b51e3b0110d8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Detail-01.fbx using Guid(0dc8cab59479a8e42b51e3b0110d8f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '312cac80471ff6b4938b5ad29c04fa1a') in 0.021975 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.130097 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Detail-03.fbx
-  artifactKey: Guid(a5e66cb7fed883144812e14876a138b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Detail-03.fbx using Guid(a5e66cb7fed883144812e14876a138b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b41a7e8e560e6e82124da34ec837f650') in 0.022123 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.513927 seconds.
-  path: Assets/RTG 1.3/Contents/Others/megaphone.fbx
-  artifactKey: Guid(aeb1ff138c0b3b743a9aa35f82043e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/megaphone.fbx using Guid(aeb1ff138c0b3b743a9aa35f82043e30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '989ca2d86cf9245b17486ae65234f69b') in 0.025295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.077685 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Quimical.fbx
-  artifactKey: Guid(bc2c57add29f7f54e8db3d73a37e2557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Quimical.fbx using Guid(bc2c57add29f7f54e8db3d73a37e2557) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '685188ff1de8621a65747dc4bbb695fd') in 0.023660 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.055986 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Tires_Barrier-02.fbx
-  artifactKey: Guid(46008ee37efc24e4b94834f6d95d4d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Tires_Barrier-02.fbx using Guid(46008ee37efc24e4b94834f6d95d4d9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '236cc3ea6c1d9421e13138ba48abad16') in 0.024381 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.129707 seconds.
-  path: Assets/RTG 1.3/Contents/Others/Truss-01.fbx
-  artifactKey: Guid(b09b3512351511448a1934f4268c74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Others/Truss-01.fbx using Guid(b09b3512351511448a1934f4268c74da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7953b349d5bf7384a10fd82b206a34ea') in 0.021428 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 8.849317 seconds.
-  path: Assets/RTG 1.3/Contents/OutDoors/Outdoor-A/OutDoor-A-1.fbx
-  artifactKey: Guid(be90e405db4ccb74a90e80b15103f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/OutDoors/Outdoor-A/OutDoor-A-1.fbx using Guid(be90e405db4ccb74a90e80b15103f3bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a03bb5fac525cb0836bf99579534817a') in 0.025623 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/RTG 1.3/Contents/OutDoors/Outdoor-A/OutDoor-A-3.fbx
-  artifactKey: Guid(55cf5134dca650f4092919b7195807e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/OutDoors/Outdoor-A/OutDoor-A-3.fbx using Guid(55cf5134dca650f4092919b7195807e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b5c4623f4762bbdd86049c941e0070b') in 0.040321 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.860704 seconds.
-  path: Assets/RTG 1.3/Contents/OutDoors/Outdoor-B/OutDoor-B-2.fbx
-  artifactKey: Guid(185a2eddd566a9b419c190e93b213adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/OutDoors/Outdoor-B/OutDoor-B-2.fbx using Guid(185a2eddd566a9b419c190e93b213adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ec4a71210e96605a7c12e10608c42cb') in 0.026409 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/RTG 1.3/Contents/OutDoors/Outdoor-B/OutDoor-B-3.fbx
-  artifactKey: Guid(60775aba87748f147bdea2900dff5f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/OutDoors/Outdoor-B/OutDoor-B-3.fbx using Guid(60775aba87748f147bdea2900dff5f62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b962d5ec137d3e4c5d00bea7b9c9ba6e') in 0.025297 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.865181 seconds.
-  path: Assets/RTG 1.3/Contents/OutDoors/Outdoor-D/OutDoor-D-2.fbx
-  artifactKey: Guid(dada2f9de994a5a458dcc19a23bc3218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/OutDoors/Outdoor-D/OutDoor-D-2.fbx using Guid(dada2f9de994a5a458dcc19a23bc3218) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b033774a6eb4fa0da8e46af0be2f8b38') in 0.030105 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.608963 seconds.
-  path: Assets/RTG 1.3/Contents/OutDoors/Outdoor-G/Outdoor-G-2.fbx
-  artifactKey: Guid(77726b758771cbc4686705e06c04e0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/OutDoors/Outdoor-G/Outdoor-G-2.fbx using Guid(77726b758771cbc4686705e06c04e0e4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c4b4d2d059fa099552a64d1519cbc00') in 0.024786 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/RTG 1.3/Contents/OutDoors/Outdoor-G/Outdoor-G-3.fbx
-  artifactKey: Guid(815268835ef79494b93c7debdbd233b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/OutDoors/Outdoor-G/Outdoor-G-3.fbx using Guid(815268835ef79494b93c7debdbd233b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29d791fabd4007372e09097700081456') in 0.034713 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 7.989903 seconds.
-  path: Assets/RTG 1.3/Contents/PostStart/Post-Start-02-b.fbx
-  artifactKey: Guid(5a53378e50c75b4459a8bc371ce22a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/PostStart/Post-Start-02-b.fbx using Guid(5a53378e50c75b4459a8bc371ce22a15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1af44bf19f7fd3f3f0ffc54001e693f') in 0.045095 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/RTG 1.3/Contents/PostStart/Post-Start-04-A.fbx
-  artifactKey: Guid(bcb2d7d06d5bed04982142143a1482b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/PostStart/Post-Start-04-A.fbx using Guid(bcb2d7d06d5bed04982142143a1482b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82406aa8f7ccc5fdb98a36c8b29a6456') in 0.059434 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/RTG 1.3/Contents/PostStart/Post-Start-04-B.fbx
-  artifactKey: Guid(5a78a7a804fe4c4488089f46abb40c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/PostStart/Post-Start-04-B.fbx using Guid(5a78a7a804fe4c4488089f46abb40c3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3564575dd5e781eabae61aca03e9eb37') in 0.058993 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RTG 1.3/Contents/PostStart/Post-Start-03-B.fbx
-  artifactKey: Guid(e8c652324dbdc5f4ab05fda768332577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/PostStart/Post-Start-03-B.fbx using Guid(e8c652324dbdc5f4ab05fda768332577) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97861fabc5efcf494cfff586d019c8eb') in 0.044904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.692419 seconds.
-  path: Assets/RTG 1.3/Contents/PostStart/StartGrid.fbx
-  artifactKey: Guid(417d867761e24744d8b205ccc99c1cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/PostStart/StartGrid.fbx using Guid(417d867761e24744d8b205ccc99c1cd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c0b5a10d662fc04cbb471fc432cb582') in 0.019141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.453097 seconds.
-  path: Assets/RTG 1.3/Contents/Signs/SignPlate-R-(50-100).fbx
-  artifactKey: Guid(bf985491cee4ffc4d926463671690055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Signs/SignPlate-R-(50-100).fbx using Guid(bf985491cee4ffc4d926463671690055) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98c1c58494f0063bfa76f0bfb1dca324') in 0.022384 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/RTG 1.3/Contents/Signs/SignPlate-R-(150).fbx
-  artifactKey: Guid(154a1a34efad56a4985fbbe2c3304ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Signs/SignPlate-R-(150).fbx using Guid(154a1a34efad56a4985fbbe2c3304ca7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c60171c41b98c70a34dd813cc0c70a') in 0.023549 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RTG 1.3/Contents/Signs/SignPlate-R-(L).fbx
-  artifactKey: Guid(1129fd9ce89a89d4c96b8704f389b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Signs/SignPlate-R-(L).fbx using Guid(1129fd9ce89a89d4c96b8704f389b679) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '356d23762370d78b33f82b27b8a60f1c') in 0.030551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.136299 seconds.
-  path: Assets/RTG 1.3/Contents/Stones/Stone-02.fbx
-  artifactKey: Guid(bd299b407090d9b419e00d6b0ed24514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Stones/Stone-02.fbx using Guid(bd299b407090d9b419e00d6b0ed24514) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bac623842b090076f94977798837c35') in 0.017988 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.231810 seconds.
-  path: Assets/RTG 1.3/Contents/Tents/Tents-eight.fbx
-  artifactKey: Guid(25a2ef2a592a8304c9390e810d2f7f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Tents/Tents-eight.fbx using Guid(25a2ef2a592a8304c9390e810d2f7f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af1a979103d4584413afdf0ffb8e4d64') in 0.019887 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/RTG 1.3/Contents/Tents/Umbrellas.fbx
-  artifactKey: Guid(aed23027d9db8674fa301588e69aa68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Tents/Umbrellas.fbx using Guid(aed23027d9db8674fa301588e69aa68a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae61f463d8251468f5686ea804efe2d7') in 0.022952 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000052 seconds.
-  path: Assets/RTG 1.3/Contents/Tents/Tents.fbx
-  artifactKey: Guid(dc03722e8c43c2b44894bd27ae8a35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Tents/Tents.fbx using Guid(dc03722e8c43c2b44894bd27ae8a35ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'def5fd46beb700769e44b78229347e43') in 0.019608 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.187064 seconds.
-  path: Assets/RTG 1.3/Contents/Trees/Tree-A-02.fbx
-  artifactKey: Guid(1ba876fc3db7bfb43b909d1c81231e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Trees/Tree-A-02.fbx using Guid(1ba876fc3db7bfb43b909d1c81231e76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c565f80f0590769ed31b40599a80c783') in 0.021129 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/RTG 1.3/Contents/Trees/Tree-B-02.fbx
-  artifactKey: Guid(d8986121cadd0004bb0d77b5997744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Trees/Tree-B-02.fbx using Guid(d8986121cadd0004bb0d77b5997744b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fddc21f2a4d7d206430c3548b5ac10a') in 0.033047 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/RTG 1.3/Contents/Trees/Tree-B-03.fbx
-  artifactKey: Guid(e849884e624cb0e4e8945ee6a7bb5a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Contents/Trees/Tree-B-03.fbx using Guid(e849884e624cb0e4e8945ee6a7bb5a93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d3f50db56681b95d78c6f73497d5793') in 0.031468 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 353.300249 seconds.
-  path: Assets/Animals/Wolf/Materials/Wolf.mat
-  artifactKey: Guid(204564218174e9b44aab555ad56d7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Animals/Wolf/Materials/Wolf.mat using Guid(204564218174e9b44aab555ad56d7324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38a86d7000e18e97c529e1ba4f722750') in 0.043784 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Materials/WolfLite Enemy.mat
-  artifactKey: Guid(ee51a925795e82e42b74fd3af52e6a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Materials/WolfLite Enemy.mat using Guid(ee51a925795e82e42b74fd3af52e6a6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fc642bd95c0c7fa7512e26dffae9abe') in 0.585340 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Malbers Animations/Common/Materials & Textures/Interactables/Zone Hole.mat
-  artifactKey: Guid(c94b33f467fd6e1489d3743da3fb85e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/Common/Materials & Textures/Interactables/Zone Hole.mat using Guid(c94b33f467fd6e1489d3743da3fb85e8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd55a724c388cb474264716505ef4ec1c') in 0.018144 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000087 seconds.
-  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Materials/WolfLite Black.mat
-  artifactKey: Guid(9ccb966ec52a46246aaf44d40d00dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Materials/WolfLite Black.mat using Guid(9ccb966ec52a46246aaf44d40d00dac6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c753adad0934e502227c680761587dc6') in 0.013153 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Malbers Animations/Common/Materials & Textures/Interactables/Zones Dark.mat
-  artifactKey: Guid(a9ea17c7469939a44b0a29064a684212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/Common/Materials & Textures/Interactables/Zones Dark.mat using Guid(a9ea17c7469939a44b0a29064a684212) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3d5ba6c4c8376d5670059360c14021a3') in 0.330657 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Malbers Animations/Animal Controller/Wolf Lite/Materials/WolfLite Green.mat
-  artifactKey: Guid(935eba130a693614ca993db013ce3c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/Animal Controller/Wolf Lite/Materials/WolfLite Green.mat using Guid(935eba130a693614ca993db013ce3c6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee2e4937bbe6e8f1e4f553b77daf4824') in 0.014861 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Malbers Animations/Common/Materials & Textures/Interactables/Zones Red.mat
-  artifactKey: Guid(50c7f0aae0a73554bb8ab524c9083e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Malbers Animations/Common/Materials & Textures/Interactables/Zones Red.mat using Guid(50c7f0aae0a73554bb8ab524c9083e42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b23e450a7b821af939d562de8027a4ca') in 0.011903 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 622.115968 seconds.
-  path: Assets/Lights.prefab
-  artifactKey: Guid(93c99891630c4e64ca02bb3095b2f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Lights.prefab using Guid(93c99891630c4e64ca02bb3095b2f17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '960018eabe3f0038a2ca5ac447e7dcee') in 0.006135 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1314.237189 seconds.
-  path: Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Arch_banner_finish_free.fbx
-  artifactKey: Guid(3bdf32973f5b9f143bfdfd0ae9bd4c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Arch_banner_finish_free.fbx using Guid(3bdf32973f5b9f143bfdfd0ae9bd4c32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986388aa90cf71395061a10d311e59b9') in 0.038503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000038 seconds.
-  path: Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Barrier_free.fbx
-  artifactKey: Guid(fc7e863a8c68106469f94461e8a8cec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Barrier_free.fbx using Guid(fc7e863a8c68106469f94461e8a8cec1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04d91ee142853d2ebd01953a7c4a2aa3') in 0.023555 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Cone_free.fbx
-  artifactKey: Guid(41d39579352781a469fa30b8617ec422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Cone_free.fbx using Guid(41d39579352781a469fa30b8617ec422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f05c8967fcd7dee019e27b405743f844') in 0.019753 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Arrow_01_free.fbx
-  artifactKey: Guid(bce2e842bb981e54d9fca3268ae02e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Arrow_01_free.fbx using Guid(bce2e842bb981e54d9fca3268ae02e8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7cbe7d2ff4b3f1c95a0a51f8156b59f') in 0.020464 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.161055 seconds.
-  path: Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Sign_free.fbx
-  artifactKey: Guid(fd3accc54eafe0a4c8fbd42c3b715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/RTG 1.3/Prefabs/BEDRILL/Track_Environment_Free/Models/Sign_free.fbx using Guid(fd3accc54eafe0a4c8fbd42c3b715148) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac87296199ca3a9553561c40ca537d8b') in 0.017077 seconds 
